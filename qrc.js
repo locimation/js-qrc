@@ -1,5 +1,4 @@
 var net = require('net');
-var bluebird = require('bluebird');
 
 var client = new net.Socket();
 var client_connected = false;
